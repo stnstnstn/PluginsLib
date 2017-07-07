@@ -30,7 +30,9 @@
 >     compile 'com.facebook.android:audience-network-sdk:4.23.0'
 >     compile('com.mopub:mopub-sdk:4.13.0')
 >     compile group: 'net.sf.kxml', name: 'kxml2', version:'2.3.0'
->     若有需求更换applovin的key，请在AndroidManifest中添加applovin.sdk.key的meta-data属性并设置其标签tools:replace="android:value"
+
+>     若有需求更换applovin的key，请在AndroidManifest中添加如下代码
+>     <meta-data android:name="applovin.sdk.key" android:value="请更换成自己的key值" tools:replace="android:value" />
 
  - 初始化
 
