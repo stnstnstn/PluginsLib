@@ -14,29 +14,16 @@
  - 依赖项：
 
 >     compile 'com.talefun.plugins:Base:版本号'
->     compile 'com.squareup.okhttp3:okhttp:3.5.0'
->     compile 'com.squareup.okio:okio:1.11.0'
 
 #**组件系统：**
 
- 1.**广告系统：（需要接入Base，AOL，Applovin）**
+ 1.**广告系统：**
 
  
 
  - 依赖项
 
->     compile 'com.talefun.plugins:Base:版本号'
->     compile 'com.talefun.plugins:AOL:版本号'
->     compile 'com.talefun.plugins:Applovin:版本号'
 >     compile 'com.talefun.plugins:aD:版本号'
->     compile 'com.android.support:support-v4:23.0.0'
->     compile 'com.google.android.gms:play-services-ads:11.0.1'
->     compile 'com.google.android.gms:play-services-gcm:11.0.1'
->     compile 'com.android.support:recyclerview-v7:23.0.0'
->     compile 'com.android.support:cardview-v7:23.0.0'
->     compile 'com.facebook.android:audience-network-sdk:4.23.0'
->     compile('com.mopub:mopub-sdk:4.13.0')
->     compile group: 'net.sf.kxml', name: 'kxml2', version:'2.3.0'
 
 >     若有需求更换applovin的key，请在AndroidManifest中添加如下代码
 >     <meta-data android:name="applovin.sdk.key" android:value="请更换成自己的key值" tools:replace="android:value" />
@@ -155,16 +142,11 @@
 >	}'
 
 
- 3.**锁屏广告系统（需要接入Base，Applovin）**
+ 3.**锁屏广告系统**
 
 - 依赖库
 
->     compile 'com.talefun.plugins:Base:版本号'
->     compile 'com.talefun.plugins:Applovin:版本号'
 >     compile 'com.talefun.plugins:LockScreen:版本号'
->     compile 'com.google.android.gms:play-services-ads:11.0.1'
->     compile('com.mopub:mopub-sdk:4.13.0')
->	  compile 'com.facebook.android:audience-network-sdk:4.23.0'
     
 - 初始化
 
@@ -189,14 +171,11 @@
 >     LockScreen.getFirstOpenTime(Context context)
 
 
- 4.**交叉推广（需要接入Base）**
+ 4.**交叉推广**
 
 - 依赖库
 
->     compile 'com.talefun.plugins:Base:版本号'
 >     compile 'com.talefun.plugins:CrossPromotion:版本号'
->     compile 'com.android.support:support-v4:23.0.0'
->     compile 'com.google.android.gms:play-services-analytics:11.0.1'
 
 - 初始化
 
@@ -216,15 +195,11 @@
 >     CrossPromotion.show(Activity activity, String lan, String exit)
 >     参数lan(ui语言)，exit(是否显示退出按钮)
 
- 5.**启动推广（需要接入Base）**
+ 5.**启动推广**
 
 - 依赖库
 
->     compile 'com.talefun.plugins:Base:版本号'
 >     compile 'com.talefun.plugins:nativeinterstitial:版本号'
->     compile 'com.liulishuo.filedownloader:library:1.4.1'
->	  compile 'com.android.support:support-v4:23.0.0'
->     compile 'com.google.android.gms:play-services-analytics:11.0.1'
 
 - 初始化(********必须放在application的onCreate中*********)
 
