@@ -3,10 +3,11 @@
   <groupId>com.talefun.plugins</groupId>
   <artifactId>nativeinterstitial</artifactId>
   <versioning>
-    <release>3.0.1</release>
+    <release>3.0.2</release>
     <versions>
       <version>3.0.1</version>
+      <version>3.0.2</version>
     </versions>
-    <lastUpdated>20170710083401</lastUpdated>
+    <lastUpdated>20170710095012</lastUpdated>
   </versioning>
 </metadata>
