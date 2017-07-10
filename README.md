@@ -13,7 +13,8 @@
 
  - 依赖项：
 
->     compile 'com.squareup.okhttp3:okhttp:3.5.0' compile
+>     compile 'com.talefun.plugins:Base:版本号'
+>     compile 'com.squareup.okhttp3:okhttp:3.5.0'
 >     compile 'com.squareup.okio:okio:1.11.0'
 
 #**组件系统：**
@@ -24,6 +25,10 @@
 
  - 依赖项
 
+>     compile 'com.talefun.plugins:Base:版本号'
+>     compile 'com.talefun.plugins:AOL:版本号'
+>     compile 'com.talefun.plugins:Applovin:版本号'
+>     compile 'com.talefun.plugins:aD:版本号'
 >     compile 'com.android.support:support-v4:23.0.0'
 >     compile 'com.google.android.gms:play-services-ads:11.0.1'
 >     compile 'com.google.android.gms:play-services-gcm:11.0.1'
@@ -116,6 +121,11 @@
 
  2.**支付系统**
 
+- 依赖库
+
+
+>     compile 'com.talefun.plugins:googlepay:版本号'
+
  - 初始化
 
 >     GoogleWrapper.initPaySDK(Context context)
@@ -149,6 +159,9 @@
 
 - 依赖库
 
+>     compile 'com.talefun.plugins:Base:版本号'
+>     compile 'com.talefun.plugins:Applovin:版本号'
+>     compile 'com.talefun.plugins:LockScreen:版本号'
 >     compile 'com.google.android.gms:play-services-ads:11.0.1'
 >     compile('com.mopub:mopub-sdk:4.13.0')
 >	  compile 'com.facebook.android:audience-network-sdk:4.23.0'
@@ -180,6 +193,8 @@
 
 - 依赖库
 
+>     compile 'com.talefun.plugins:Base:版本号'
+>     compile 'com.talefun.plugins:CrossPromotion:版本号'
 >     compile 'com.android.support:support-v4:23.0.0'
 >     compile 'com.google.android.gms:play-services-analytics:11.0.1'
 
@@ -205,6 +220,8 @@
 
 - 依赖库
 
+>     compile 'com.talefun.plugins:Base:版本号'
+>     compile 'com.talefun.plugins:nativeinterstitial:版本号'
 >     compile 'com.liulishuo.filedownloader:library:1.4.1'
 >	  compile 'com.android.support:support-v4:23.0.0'
 >     compile 'com.google.android.gms:play-services-analytics:11.0.1'
@@ -226,6 +243,7 @@
 
 - 依赖库
 
+>     compile 'com.talefun.plugins:StatisticsInterface:版本号'
 >       compile 'com.flurry.android:analytics:7.0.0@aar'
 
 - 初始化
