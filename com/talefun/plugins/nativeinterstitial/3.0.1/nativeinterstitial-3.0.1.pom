@@ -28,7 +28,7 @@
     <dependency>
       <groupId>com.talefun.plugins</groupId>
       <artifactId>Base</artifactId>
-      <version>3.+</version>
+      <version>3.0.1</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
