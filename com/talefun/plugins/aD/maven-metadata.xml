@@ -3,12 +3,13 @@
   <groupId>com.talefun.plugins</groupId>
   <artifactId>aD</artifactId>
   <versioning>
-    <release>3.0.2cards</release>
+    <release>3.0.2-forcards</release>
     <versions>
       <version>3.0.1</version>
       <version>3.0.2</version>
       <version>3.0.2cards</version>
+      <version>3.0.2-forcards</version>
     </versions>
-    <lastUpdated>20170711032659</lastUpdated>
+    <lastUpdated>20170711083248</lastUpdated>
   </versioning>
 </metadata>

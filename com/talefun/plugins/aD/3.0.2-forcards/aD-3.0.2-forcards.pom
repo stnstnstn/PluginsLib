@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.talefun.plugins</groupId>
   <artifactId>aD</artifactId>
-  <version>3.0.2cards</version>
+  <version>3.0.2-forcards</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
