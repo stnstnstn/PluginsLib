@@ -5,6 +5,18 @@
 若接入过程中出现方法数超限的错误，请开启dex文件分割
 >     multiDexEnabled = true
 
+
+在项目的build.gradle文件中添加maven库的地址代码如下：
+>     allprojects {
+>        repositories {
+>            jcenter()
+>            maven{
+>                url "https://github.com/ZhaoTianze/AdLib/raw/master"
+>           }
+>        }
+>     }
+
+
 #**基础库Base：**
 
         
