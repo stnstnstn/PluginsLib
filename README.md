@@ -4,6 +4,7 @@
 查看目录下的proguard-rules.pro文件，这个是所有插件公用的混淆文件，在出包之前必须添加进项目的混淆配置文件中。
 若接入过程中出现方法数超限的错误，请开启dex文件分割
 >     multiDexEnabled = true
+>     此时一定要提供一个继承自MultiDexApplication的java类并配置在manifest文件中的application属性中，否则在低版本系统会崩溃
 
 
 在项目的build.gradle文件中添加maven库的地址代码如下：
