@@ -53,11 +53,11 @@
 
  - 生命周期函数
 
->     AdControler.start()
->     AdControler.start()
->     AdControler.start()
->     AdControler.start()
->     AdControler.start()
+>     AdControler.onStart()
+>     AdControler.onStop()
+>     AdControler.onResume()
+>     AdControler.onPause()
+>     AdControler.onDestroy()
 
  - 使用测试服广告数据（非必须）
 
@@ -99,6 +99,10 @@
 
  - 奖励视频广告
 
+>     AdControler.setRewardedAdListener(RewardedVideoListener listener)
+>     	   设置奖励视频回调:
+>      		rewaredVideoReady加载成功(可以不理会这个回调，可能会废弃)
+>      		rewaredVideoCompleted播放成功
 >     AdControler.showRewardVideo()
 
  - 隐藏所有广告(仅限banner和native)
