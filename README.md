@@ -18,7 +18,7 @@
 >     }
 
 
-#**基础库Base：**
+#**基础库Base(非必须)：**
 
         
 
@@ -27,6 +27,25 @@
  - 依赖项：
 
 >     compile 'com.talefun.plugins:Base:版本号'
+
+ - 读写json文件
+
+>     FileHelper.readCfgFile(String path)
+>     FileHelper.saveCfgFile(String path, String data)
+
+ - 网络请求
+
+>     NetWorkHelper.makeHttpPostRequest(Context context, String url, JSONObject params, NetWorkListener listener)
+
+ - 常用方法
+
+>     Tools.isAppInstalled(Context context, String packageName)
+>     Tools.getFirstInstallTime(Context context)
+>     Tools.openApp(Context context, String packageName)
+>     Tools.gotoUrl(Context context, String url)
+>     Tools.isPowerConnected(Context context)
+>     Tools.isNetworkAvailable(Context context)
+>     Tools.getSysLanguage()
 
 #**组件系统：**
 
