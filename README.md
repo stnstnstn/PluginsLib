@@ -236,7 +236,6 @@
 - 依赖库
 
 >     compile 'com.talefun.plugins:StatisticsInterface:版本号'
->       compile 'com.flurry.android:analytics:7.0.0@aar'
 
 - 初始化
 
