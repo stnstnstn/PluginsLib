@@ -47,6 +47,10 @@
 >     AdControler.init(Activity activity, RelativeLayout layout, boolean smallBanner)
 >     AdControler.init(Activity activity, RelativeLayout layout, boolean smallBanner, BannerAdListener listener)
 
+ - 切换中国服
+
+>     AdControler.useCnServer()
+
  - 启动插件
 
 >     AdControler.start()
@@ -164,7 +168,11 @@
 - 依赖库
 
 >     compile 'com.talefun.plugins:LockScreen:版本号'
-    
+   
+ - 切换中国服(最早调用)
+
+>     AdControler.useCnServer()
+   
 - 初始化
 
 >     LockScreen.startService(Context context)
