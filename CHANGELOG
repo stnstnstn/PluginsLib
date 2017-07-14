@@ -1,3 +1,14 @@
+3.0.3
+	网络请求切换至https
+	广告：
+		增加useCnServer接口
+		添加切换中国服
+	锁屏：
+		增加useCnServer接口
+		添加切换中国服
+		移除毛玻璃效果，使用蒙黑
+
+
 3.0.3-beta2
 	广告：
 		增加useCnServer接口
