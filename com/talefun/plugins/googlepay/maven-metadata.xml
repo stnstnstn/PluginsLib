@@ -3,7 +3,7 @@
   <groupId>com.talefun.plugins</groupId>
   <artifactId>googlepay</artifactId>
   <versioning>
-    <release>3.0.3-beta2-forcards</release>
+    <release>3.0.3-forcards</release>
     <versions>
       <version>3.0.1</version>
       <version>3.0.2</version>
@@ -13,7 +13,9 @@
       <version>3.0.3-beta1-forcards</version>
       <version>3.0.3-beta2</version>
       <version>3.0.3-beta2-forcards</version>
+      <version>3.0.3</version>
+      <version>3.0.3-forcards</version>
     </versions>
-    <lastUpdated>20170712130055</lastUpdated>
+    <lastUpdated>20170714064644</lastUpdated>
   </versioning>
 </metadata>

@@ -157,6 +157,7 @@
 
 >     GoogleWrapper.initPaySDK(Context context)
 >     GoogleWrapper.onActivityResult(int requestCode, int resultCode, Intent data)
+>       此接口在activity的onActivityResult中调用
 
  - 设置支付回调
 
@@ -188,9 +189,9 @@
 
 >     compile 'com.talefun.plugins:LockScreen:版本号'
    
- - 切换中国服(最早调用)
+ - 切换中国服(最好放在application中调用)
 
->     AdControler.useCnServer()
+>     LockScreen.useCnServer()
    
 - 初始化
 
